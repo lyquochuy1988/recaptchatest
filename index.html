@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recaptcha</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="form-row">
+        <input name="firstname" placeholder="Your first name" type="text">
+        </div>
+      
+        <br>
+      
+        <div class="form-row">
+        <input name="lastname" placeholder="Your last name" type="text">
+        </div>
+      
+        <br>
+      
+        <div class="form-row">
+          <div class="g-recaptcha" data-sitekey="__Site_key__"></div>
+        </div>   
+        
+      
+        <br>
+      
+        <h3 id="response"></h3>
+    </form>
+      
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+</html>
